@@ -1,0 +1,54 @@
+body {
+     font-family: sans-serif;
+}
+
+.container-main {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     background-color: white;
+     margin: 10px auto;
+     max-width: 460px;
+}
+
+.input-fields {
+     display: flex;
+     flex-direction: column;
+     margin: 10px;
+     width: 100%;
+}
+
+.input-field{
+     height: 20px;
+}
+
+.btn {
+     background-color: rgb(38, 37, 37);
+     color: white;
+     height: 40px;
+}
+
+.btn:hover {
+     cursor: pointer;
+}
+
+img {
+     width: 90%;
+     max-width: 90%;
+     height: auto;
+     margin: 0;
+}
+
+h2 {
+     margin: 10px 0 -10px 0;
+}
+
+.orders {
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+}
+
+.table-num{
+     margin: 10px;
+}
